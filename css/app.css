@@ -29,15 +29,44 @@ body{
 h1 {
 	color: #a61e23;
 	font-family: 'Alegreya Sans', sans-serif;
+    padding:20px;
+}
+h3{
+        color: #345E8D;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
 }
 .th.radius {
     border-radius: 1px;
 }
 .th {
-    border: solid 2px #bcbbbb;
-    /* box-shadow: 0 0 0 1px rgba(0,0,0,0.2); */
+
+     box-shadow: 0 0 0 1px rgba(0,0,0,0.2); 
     display: inline-block;
     line-height: 0;
     max-width: 100%;
     transition: all 200ms ease-out;
+}
+ 
+  
+.panel p{
+        padding-top: 10px;
+       color: #345E8D;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+
+}
+p{
+      padding-top: 10px;
+       color: #345E8D;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+        font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    font-size: medium;
 }
